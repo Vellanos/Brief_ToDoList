@@ -14,16 +14,18 @@ CREATE TABLE IF NOT EXISTS task (
     PRIMARY KEY (id)
 );
 
-INSERT INTO task (title,description, important) VALUES
-('Tâche 1', 'Desc de la tâche 1', 0),
-('Tâche 2', 'Desc de la tâche 2', 0),
-('Tâche 3', 'Desc de la tâche 3', 0),
-('Tâche 4', 'Desc de la tâche 4', 1),
-('Tâche 5', 'Desc de la tâche 5', 1),
-('Tâche 6', 'Desc de la tâche 6', 1),
-('Tâche 7', 'Desc de la tâche 7', 0),
-('Tâche 8', 'Desc de la tâche 8', 1),
-('Tâche 9', 'Desc de la tâche 9', 1),
-('Tâche 10', 'Desc de la tâche 10', 0);
+INSERT INTO task (title, description, important)
+VALUES 
+("Créer une page d'accueil", "Concevoir et développer la page d'accueil de notre site web", 1),
+("Configurer un serveur web", "Configurer un serveur web Apache pour héberger notre site web", 0),
+("Développer une fonctionnalité de recherche", "Concevoir et développer une fonctionnalité de recherche pour notre site web", 1),
+("Optimiser le référencement naturel", "Améliorer le référencement naturel de notre site web sur les moteurs de recherche", 0),
+("Mettre en place un système de cache", "Mettre en place un système de cache pour améliorer les performances de notre site web", 1),
+("Sécuriser notre site web", "Configurer les règles de sécurité pour protéger notre site web contre les attaques", 1),
+("Améliorer l'expérience utilisateur", "Améliorer l'expérience utilisateur de notre site web pour augmenter la satisfaction des utilisateurs", 0),
+("Développer une API REST", "Concevoir et développer une API REST pour notre site web", 1),
+("Utiliser un framework CSS", "Utiliser un framework CSS pour accélérer le développement de notre site web", 0),
+("Effectuer des tests unitaires", "Concevoir et exécuter des tests unitaires pour garantir la qualité de notre code", 1);
+
 
 COMMIT;
