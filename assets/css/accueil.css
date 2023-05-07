@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/SL_101619_24150_55.jpg');
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}

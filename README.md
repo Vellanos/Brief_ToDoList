@@ -4,11 +4,7 @@
 
 Le MVP réalisé en équipe est un franc succès, pour définitivement valider vos compétences en PHP + POO + PDO votre responsable technique vous soumet ce mini-brief reprenant les mêmes compétences techniques que le projet précédent, en plus light.
 
-​
-
 Vous devrez réaliser une todo list durant vos deux dernières après-midi techniques avant les vacances. Le responsable technique vous a laisser une liste des tâches à faire pour réaliser le projet.
-
-​
 
 Vous vous appuierez sur le schema MPD de la base de données fourni pour :
 
